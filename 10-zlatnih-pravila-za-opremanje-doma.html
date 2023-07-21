@@ -35,20 +35,37 @@
 
 <body>
     <nav>
-        <div class="logo-container">
-            <a href="index.html">
-                <img src="images/sredikucu_logo.webp" decoding="async" loading="lazy" alt="sredikucu.rs logo">
-            </a>
-        </div>
-        <div class="categories">
-            <p>
-                <a href="kuca.html">Kuća</a>
-                <a href="stan.html">Stan</a>
-                <a href="dvoriste.html">Dvorište</a>
-                <a class="call-button" href="kontakt.html">
-                    Kontakt
+        <div class="nav-desktop">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img width="150px" height="89.57px" src="images/sredikucu_logo.webp" decoding="async" loading="lazy"
+                        alt="sredikucu.rs logo">
                 </a>
-            </p>
+            </div>
+            <div class="categories">
+                <p>
+                    <a href="kuca.html">Kuća</a>
+                    <a href="stan.html">Stan</a>
+                    <a href="dvoriste.html">Dvorište</a>
+                    <a class="call-button" href="kontakt.html">
+                        Kontakt
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div id="menuToggle" class="nav-mobile">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a href="kuca.html">Kuća</a></li>
+                <li><a href="stan.html">Stan</a></li>
+                <li><a href="dvoriste.html">Dvorište</a></li>
+                <li><a class="call-button" href="kontakt.html">
+                        Kontakt
+                    </a></li>
+            </ul>
         </div>
     </nav>
     <main>
@@ -764,14 +781,16 @@
             <br />
 
             <section class="read-more">
-                <h3>Realted topics:</h3>
+                <h3>Povezani članci:</h3>
                 <div class="related-m">
-                    <img src="https://www.divingmontenegro.me/wp-content/uploads/2023/07/neom-NPDnHmYsl6Y-unsplash-2048x1365.jpg"
-                        loading="lazy" alt="">
+                    <img src="images/vodic-za-renoviranje-kupatila-u-2023-godini-naslovna.webp" loading="lazy"
+                        decoding="async"
+                        alt="Vodic za renoviranje kupatila u 2023. godini za pocetnike za nastavak citanja">
                     <div>
-                        <strong>Unleash the Power of Python: How I Scraped My Way to $2,200</strong>
+                        <strong>Vodič za renoviranje kupatila u 2023. godini</strong>
                         <p>
-                            I made $2,200 in a single week with just one Python web scraping script. Here’s the story
+                            Kupatilo predstavlja jednu od najvažnijih prostorija u našem domu - mesto gde se
+                            opuštamo, umivamo i pripremamo za novi dan.
                         </p>
                     </div>
                 </div>
@@ -780,7 +799,7 @@
 
             <aside>
                 <div>
-                    <p>Title</p>
+                    <p>Sekcije</p>
                     <ol>
                         <li>
                             <a href="#s1">Odaberite pravi stil za vaš dom</a>
@@ -822,8 +841,8 @@
     <footer class="author-box">
         <div class="grid-container">
             <div>
-                <img class="avatar" src="./images/sredikucu_mala_kuca.webp" decoding="async" loading="lazy"
-                    alt="Sredi Kucu avatar" />
+                <img width="130px" height="130px" class="avatar" src="./images/sredikucu_mala_kuca.webp"
+                    decoding="async" loading="lazy" alt="Sredi Kucu avatar" />
             </div>
             <h3 class="author-title">Hej, ovde SrediKucu.rs</h3>
             <div>
