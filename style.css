@@ -270,7 +270,6 @@ article.blog-wide {
 
 .blog .related-big,
 .blog .related-xl {
-    cursor: pointer;
     box-shadow: 0 10px 60px rgba(188, 210, 213, .3);
     -webkit-box-shadow: 0 10px 60px rgba(188, 210, 213, .3);
     -moz-box-shadow: 0 10px 60px rgba(188, 210, 213, .3);
@@ -336,7 +335,6 @@ article.blog-wide {
 
 .blog .related-medium,
 .blog .related-m {
-    cursor: pointer;
     box-shadow: 0 10px 60px rgba(188, 210, 213, .3);
     -webkit-box-shadow: 0 10px 60px rgba(188, 210, 213, .3);
     -moz-box-shadow: 0 10px 60px rgba(188, 210, 213, .3);
@@ -405,7 +403,6 @@ article.blog-wide {
 
 .blog .related-small,
 .blog .related-s {
-    cursor: pointer;
     box-shadow: 0 10px 60px rgba(188, 210, 213, .3);
     -webkit-box-shadow: 0 10px 60px rgba(188, 210, 213, .3);
     -moz-box-shadow: 0 10px 60px rgba(188, 210, 213, .3);
@@ -465,6 +462,10 @@ article.blog-wide {
     font-weight: 400;
     margin: 0;
     padding: 0 24px 24px 24px;
+    color: var(--base-text-color);
+}
+
+.blog .read-more a {
     color: var(--base-text-color);
 }
 
