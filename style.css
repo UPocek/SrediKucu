@@ -822,6 +822,37 @@ aside a:hover {
         padding: 0;
     }
 
+    .blog .read-more,
+    .blog .grid-1,
+    .blog .grid-2,
+    .blog .grid-3,
+    .blog .grid-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog .related-big,
+    .blog .related-xl,
+    .blog .related-medium,
+    .blog .related-m {
+        height: auto;
+        width: auto;
+    }
+
+    .blog .related-big img,
+    .blog .related-xl img {
+        max-height: 300px;
+        min-width: auto;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+
+    .blog .related-medium img,
+    .blog .related-m img {
+        margin: 20px 24px;
+        width: 120px;
+    }
+
     /* Mobile nav */
 
     nav {
