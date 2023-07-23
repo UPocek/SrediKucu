@@ -253,6 +253,11 @@ article.blog-wide {
     margin: 5vh auto;
 }
 
+.archive h1,
+.archive h2 {
+    margin: 5%;
+}
+
 .blog .related-extrabig,
 .blog .related-xxl {
     display: flex;
@@ -261,7 +266,7 @@ article.blog-wide {
     overflow: hidden;
     transition: box-shadow .1s ease-in-out;
     padding: 30px 100px;
-    border-bottom: 2px solid var(--accent-dark-color);
+    border-top: 2px solid var(--accent-dark-color);
 }
 
 .blog .related-extrabig img,
